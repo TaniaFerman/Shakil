@@ -10,7 +10,9 @@ begin
     when "meow"
       puts "woof woof woof woof woof"
     when /treat/  
-    puts  
+      puts  
+    else 
+      puts "woof"
   end
 end while word != "go away"
 puts "Shakil has left the building"
